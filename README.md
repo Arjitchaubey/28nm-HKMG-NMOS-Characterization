@@ -1,7 +1,7 @@
 ﻿# 28nm HKMG NMOS: DC Calibration & AC Characterization
 
 ## Project Overview
-This project involves the full physics-based characterization of a **28nm High-K Metal Gate (HKMG)** NMOS transistor using Synopsys Sentaurus TCAD. The simulation workflow demonstrates a professional "calibration-first" approach:
+This project involves the full physics-based characterization of a **28nm High-K Metal Gate (HKMG)** NMOS transistor using Synopsys Sentaurus TCAD.
 1.  **DC Calibration:** Matching simulated I-V curves against a reference PDK model to verify physical parameters.
 2.  **AC Analysis:** Performing Small-Signal analysis to extract frequency-dependent C-V characteristics.
 
