@@ -1,0 +1,29 @@
+﻿Material="HfO2" {
+  Epsilon { epsilon = 20 }
+}
+Material="Si3N4" {
+  Epsilon { epsilon = 7.5 }
+}
+Material="Silicon" {
+  Epsilon { epsilon = 11.7 }
+  Bandgap {
+    Chi0 = 4.05
+    Eg0 = 1.16964
+    alpha = 4.7300e-04
+    beta = 6.3600e+02
+  }
+  Mobility {
+    PhuMob: {
+      mumax_As = 1417.0
+      mumin_As = 52.2
+      mumax_P  = 1414.0
+      mumin_P  = 68.5
+      mumax_B  = 470.5
+      mumin_B  = 44.9
+    }
+    HighFieldDependence: {
+      beta0 = 1.109 , 1.213
+      vsat0 = 1.07e7 , 8.37e6
+    }
+  }
+}
